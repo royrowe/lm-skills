@@ -77,12 +77,13 @@ prototype/
 
 ## 图片资源
 
-- 使用 [picsum.photos](https://picsum.photos) 获取占位图片，URL 格式：
-  - 固定尺寸：`https://picsum.photos/400/300`
+- 图片使用data:image/svg+xml的方式占位；
+- 如有特殊需求，使用 [picsum.photos](https://picsum.photos) 获取占位图片，URL 格式：
+- - 固定尺寸：`https://picsum.photos/400/300`
   - 正方形头像：`https://picsum.photos/100/100`
   - 随机产品图：`https://picsum.photos/600/400`
 - 传入 `?random=N` 参数获取不同图片，避免重复
-- 所有图片 URL 直接使用 `https://picsum.photos/...` 即可（图片托管在外部是唯一例外，因为这是占位图服务的本质需求）
+- 所有图片保存本地；
 
 ## 测试数据
 
