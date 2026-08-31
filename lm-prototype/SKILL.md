@@ -78,7 +78,7 @@ prototype/
 ## 图片资源
 
 - 图片使用data:image/svg+xml的方式占位；
-- 如有特殊需求，使用 [picsum.photos](https://picsum.photos) 获取占位图片，URL 格式：
+- 如有特殊需求，使用 [picsum.photos](https://picsum.photos) 获取占位图片，图片下载至本地：
 - - 固定尺寸：`https://picsum.photos/400/300`
   - 正方形头像：`https://picsum.photos/100/100`
   - 随机产品图：`https://picsum.photos/600/400`
